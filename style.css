@@ -1,0 +1,68 @@
+h1{ 
+    position: relative;
+    top: 200px;
+    text-align: center ;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 240px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 4px;
+}
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    z-index: -1;
+    
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button{
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    top: 250px; 
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px 20px;
+    width: 200px;
+    
+   
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    transition: ease-in-out;
+    border-radius: 25px;
+}
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    color:  purple;
+}
+
